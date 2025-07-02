@@ -1,0 +1,1 @@
+fn(usize) -> (SyncSender<_>, std::sync::mpsc::Receiver<_>) {std::sync::mpsc::sync_channel::<_>}
